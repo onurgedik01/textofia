@@ -1,0 +1,28 @@
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+
+
+
+#rewritebase /
+
+
+RewriteRule ^Welcome_To_Textofia!.sen2001$ main.php [L,NC]
+RewriteRule ^main.sen2001$ main.php [L,NC]
+
+
+
+RewriteRule ^myNotes.sen2001$ myNotes.php [L,NC]
+RewriteRule ^newNote.sen2001$ newNote.php [L,NC]
+RewriteRule ^publicNotes.sen2001$ publicNotes.php [L,NC]
+RewriteRule ^logout_request.sen2001$ session_destroy.php [L,NC]
+RewriteRule ^saveNote.request.sen2001$ saveNote.php [L,NC]
+RewriteRule ^success.sen2001$  success.php [L,NC]
+
+RewriteRule ^delete.note.sen2001$  deleteNote.php [L,NC]
+RewriteRule ^edit.note.sen2001$  editNote.php [L,NC]
+
+
+
+RewriteRule ^make.public.sen2001$  notePublic.php [L,NC]
+RewriteRule ^make.private.sen2001$ notePrivate.php [L,NC]
