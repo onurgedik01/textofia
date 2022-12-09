@@ -1,4 +1,3 @@
-
 <!DOCTYPE HTML>
 <html lang="en">
   <head>
@@ -8,8 +7,7 @@
     <meta name="author" content="">
     <link rel="icon" href="/docs/4.0/assets/img/favicons/favicon.ico">
 
-		<title> Textofia | Easy Note App! </title>
-		
+	  <title> Textofia | Easy Note App! </title>		
     <!-- Bootstrap core CSS -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
@@ -17,11 +15,11 @@
     <link href="navbar.css" rel="stylesheet">
   </head>
 
-  <body>
+
 
 
     <!-- Begin page content -->
-    <center>
+
     <main role="main" class="container">
     <br/><br/>
       <h1 class="mt-5">Textofia - Easy Note App!</h1>
@@ -31,8 +29,7 @@
 <font style="font-size:100px"><font color="green"><b> Success! </b></font></font>
 <br />
 <a class="btn btn-success btn-xl" href="myNotes.sen2001"> My Notes </a>
-</center>
-	    </body>
+	   
     </main>
 
     <footer class="footer">
