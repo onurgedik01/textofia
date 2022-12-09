@@ -2,9 +2,6 @@
 <!DOCTYPE HTML>
 <html lang="en">
   <head>
-
-
-
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
@@ -35,7 +32,7 @@
 <br />
 <a class="btn btn-success btn-xl" href="myNotes.sen2001"> My Notes </a>
 </center>
-
+	    </body>
     </main>
 
     <footer class="footer">
@@ -51,5 +48,4 @@
     <script>window.jQuery||document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
     <script src="../../assets/js/vendor/popper.min.js"></script>
     <script src="../../dist/js/bootstrap.min.js"></script>
-  </body>
 </html>
